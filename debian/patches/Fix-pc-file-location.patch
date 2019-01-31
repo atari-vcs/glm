@@ -1,0 +1,11 @@
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -261,7 +261,7 @@
+ configure_file("./cmake/glm.pc.in" "glm.pc" @ONLY)
+ 
+ # install pkg-config file
+-install(FILES "${CMAKE_CURRENT_BINARY_DIR}/glm.pc" DESTINATION "${CMAKE_INSTALL_LIBDIR}/pkgconfig")
++install(FILES "${CMAKE_CURRENT_BINARY_DIR}/glm.pc" DESTINATION "${CMAKE_INSTALL_DATAROOTDIR}/pkgconfig")
+ 
+ export(PACKAGE glm)
+ 

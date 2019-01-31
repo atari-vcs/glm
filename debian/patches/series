@@ -1,0 +1,4 @@
+Fix-pc-file-location.patch
+Fix-CMake-package-version-file.patch
+fix-doxygen
+disable-constexpr.patch

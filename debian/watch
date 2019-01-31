@@ -1,0 +1,3 @@
+version=3
+opts="compression=xz" \
+https://github.com/g-truc/glm/releases .*/(\d\S*)\.tar.gz
