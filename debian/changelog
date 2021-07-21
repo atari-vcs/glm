@@ -1,3 +1,10 @@
+glm (0.9.9.3-2+apertis0) atari; urgency=medium
+
+  * Import from Debian buster.
+  * Set component to development.
+
+ -- Apertis package maintainers <packagers@lists.apertis.org>  Wed, 21 Jul 2021 12:30:19 +0100
+
 glm (0.9.9.3-2) unstable; urgency=medium
 
   * Unconditionally disable GLM_HAS_CONSTEXPR. (Closes: #920791)
